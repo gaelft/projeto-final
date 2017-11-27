@@ -1,12 +1,59 @@
-.Classe-D{
-	background: #000;
-	color: #fff;
-	border-top: 10vh;
+*,
+*:after,
+*:before{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-.fundo{
+body{
+	background-color: #fcae1b;
+}
+.containerResposivo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.cont-secao{
 	background: #FF4500;
-	/*border-top: 10vh;*/
+	color: #fff;
+	font-size: 1.5em;
 }
-.sobreolocal{
+.img-secao{
+	width: 100%;
+}
+.cont-secaoSobre{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 95%;
 
+}
+.cont-sobre{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background-color: #fff;
+	border-radius: 30px;
+}
+.titulo-sobre{
+	display: flex;
+	justify-content: flex-start;
+	background-color: #fff;
+	border-radius: 50px;
+}
+.text-sobre{
+	width: 50%;
+}
+.sociais{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+}
+.sociais-contatos{
+	width: 16px;
 }
