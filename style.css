@@ -25,35 +25,70 @@ body{
 .cont-secaoSobre{
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
 	flex-direction: column;
 	width: 95%;
+	justify-content: space-around;
 
 }
 .cont-sobre{
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-start;
-	flex-direction: column;
-	flex-wrap: wrap;
 	background-color: #fff;
-	border-radius: 30px;
+	border-radius: 0 20px 20px 20px;
+}
+.div{
+	width: 50%;
 }
 .titulo-sobre{
 	display: flex;
-	justify-content: flex-start;
+	justify-content: center;
 	background-color: #fff;
-	border-radius: 50px;
+	border-radius: 20px 20px 0 0;
+	width: 116px;
 }
 .text-sobre{
-	width: 50%;
+	font-family: ministry, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 0.63em;
+	color: #2e3192;
+	text-align: left;
+	margin: 16px;
 }
 .sociais{
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-start;
-	flex-direction: column;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 50%;
+	color: #2e3192;
+	margin: 16px;
 }
 .sociais-contatos{
-	width: 16px;
+	width: 25px;
+	margin-bottom: 5px;
+}
+.text-sociais{
+	min-width: 70%;
+	font-family: ministry, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 0.63em;
+	color: #2e3192;
+	text-align: left;
+	margin-left: 10px;
+}
+.titulo-local{
+	display: flex;
+	justify-content: center;
+	background-color: #f26522;
+	border-radius: 20px 20px 0 0;
+	width: 116px;
+}
+.local-mapa{
+	width: 90%;
 }
